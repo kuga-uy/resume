@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,100&display=swap');
+
+
+
+                        /*vVARIABLES*/
+
+
+:root {
+    --main-bg-color: #ee8a2f;
+    --second-bg-color: #fff;
+    --first-text-color: #fff;
+    --second-text-color:#e99c31;
+    --primary-font-family: 'Roboto', Arial;
+    --third-text-color: #767676;
+}
+
+.aboutme__container{
+    display: flex;
+    align-items: center;
+    width:100%;
+    height: 600px;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+}
+
+.aboutme__wrapper{
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 255, 0);
+    width: 50%;
+    height: 600px;
+    flex-direction: column;
+}
+
+.aboutme__title{
+    align-self: flex-start;
+    margin-left: 45px;
+    font-size: 2em;
+    font-family: var(--primary-font-family);
+    font-weight: 400;
+}
+
+.aboutme__card{
+    background-color: white;
+    position: relative;
+    top: 30px;
+    height:400px;
+    width: 90%;
+    box-shadow: 2px 4px 4px #2222;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    bottom: 50px;
+}
+
+.aboutme__subtitle{
+    font-family: var(--primary-font-family);
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+.aboutme__content{
+    font-family: var(--primary-font-family);
+    color: var(--third-text-color);
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+
+.lenguages-hobbies-container{
+    display: flex;
+    background-color: yellow;
+    width: 50%;
+    height: 200px;
+}
+
+.inspirational-quote-wrapper{
+    display: flex;
+    width: 50%;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--primary-font-family);
+    font-size: 2.8em;
+    padding-left: 100px;
+}
+
+.logo{
+    position: relative;
+    bottom: 140px;
+    right: 240px;
+}
