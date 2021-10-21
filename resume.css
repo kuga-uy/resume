@@ -256,6 +256,8 @@
 
 }
 
+                /*TECH STACK SECTION*/
+
 .tech-stack-card{
     width: 70%;
     position: relative;
@@ -265,7 +267,29 @@
     border-radius: 0px 0px 20px 20px;
     padding-left: 25px;
     padding-right: 25px; 
+    text-align: left;
 }
+
+.tech-stack-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.tech-stack-title{
+    position: relative;
+    left: 20px;
+}
+
+
+.stack-icon{
+    grid-template-columns: repeat(1fr,7);
+    width: 120px;
+    height: 115px;
+}
+
 
 .opinion-container{
     display: flex;
