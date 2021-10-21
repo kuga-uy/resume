@@ -19,6 +19,7 @@
     margin: 0;
     display: flex;
     flex-direction: column;
+    scroll-behavior: smooth;
 }
                         
                             /*HEADER STYLES*/
@@ -124,6 +125,7 @@
 .navlist a{
     text-decoration: none;
     color: var(--first-text-color);
+    
 }
 
 .navlist:hover{
@@ -157,7 +159,7 @@
 
 
 .presentation__title{
-    font-size: 5.5em;
+    font-size: 4em;
     font-family: var(--primary-font-family);
     z-index: 5;
 }
@@ -165,7 +167,7 @@
 .presentation__description{
 
     font-family: var(--primary-font-family);
-    font-size: 1.1em;
+    font-size: 0.8em;
     font-weight: lighter;
     color: var(--third-text-color);
     width: 90%;
@@ -178,12 +180,12 @@
 
 .presentation__personal-info-container{
     display: flex;
-    font-size: 1.2em;
+    font-size: 0.8em;
     width:55%;
     flex-direction: column;
     position: relative;
     left: 60px;
-    top: 20px;
+    top: 10px;
 }
 
 .info{
@@ -195,7 +197,7 @@
 .info-container{
     display: flex;
     justify-content: space-between;
-    height: 40px;
+    height: 25px;
     font-family: var(--primary-font-family);
     margin-bottom: 20px;
 }
@@ -203,6 +205,7 @@
 
 .info-box{
     display: flex;
+    height: 15px;
     background-color: var(--main-bg-color);
     color: var(--first-text-color);
     justify-content: center;
@@ -235,7 +238,7 @@
 }
 
 .presentation__img{
-    width:90%;
+    width:80%;
     position: absolute;
     top: 20px;
     z-index: 0;
@@ -246,13 +249,13 @@
     justify-content: space-around;
     align-items:center;
     display: flex;
-    width: 160px;
+    width: 90px;
     height: 80px;
     position: relative;
     left: 60px;
-    top: 150px;
+    top: 60px;
 }
 
 .icon{
-    width: 30px;
+    width: 20px;
 }
