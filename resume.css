@@ -228,6 +228,12 @@
     top: 150px;
 }
 
+.experience-background-img{
+    position: absolute;
+    width: 120%;
+    top: 480px;
+    left: -420px;
+}
 
 .experience-title{
     font-size: 2em;
@@ -235,7 +241,7 @@
 }
 
 .experience-subtitle{
-    font-size: 1.1em;
+    font-size: 0.9em;
     font-weight: 400;
 }
 
@@ -255,6 +261,7 @@
     padding-right: 25px;
 
 }
+
 
                 /*TECH STACK SECTION*/
 
@@ -291,7 +298,7 @@
 }
 
 
-.opinion-container{
+.reference-container{
     display: flex;
     width: 72.5%;
     position: relative;
@@ -300,13 +307,13 @@
     flex-wrap: wrap;
 }
 
-.opinion-title-container{
+.reference-title-container{
     width:72.5%;
     position:relative;
     top: 100px
 }
 
-.opinion-title{
+.reference-title{
     position: relative;
     font-family: var(--primary-font-family);
     font-size: 2em;
@@ -314,17 +321,69 @@
     
 }
 
-.opinion-card{
-    width: 27%;
+.reference-card{
+    justify-content: center;
+    width: 25%;
     position: relative;
-    height:400px;
+    height:280px;
     box-shadow: 3px 6px 6px 3px #2222;
     border-radius: 20px;
+    padding-top: 30px;
     padding-left: 25px;
     padding-right: 25px; 
+    text-align: left;
+}
+
+.reference-name{
+    margin: 0px;
+}
+.reference-card-subtitle{
+    font-weight: lighter;
+    color: var(--third-text-color);
+}
+
+.reference-profile-container{
+    width: 80%;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.reference-description{
+    font-weight: lighter;
+    color: var(--third-text-color);
+    margin: 5px;
+    
+}
+
+.reference-point-container{
+    display: flex;
+    width: 120px;
+    justify-content: space-around;
+    position: relative;
+    top: 150px;
 }
 
 
+.reference-point{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #888;
+}
+
+.reference-intern-point{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:var(--main-bg-color);
+
+}
 
 @media (max-width: 1300px){
   
@@ -332,7 +391,7 @@
 
 @media (max-width: 900px){
    
-    .opinion-container{
+    .reference-container{
         justify-content: center;
         width: 100%;
     }
@@ -345,7 +404,7 @@
     .tech-stack-card{
         width: 85%;
     }
-    .opinion-card{
+    .reference-card{
         width: 35%;
     }
 
@@ -364,7 +423,7 @@
 
 
 @media (max-width: 720px){
-    .opinion-card{
+    .reference-card{
         width: 80%;
     }
 
