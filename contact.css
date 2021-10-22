@@ -1,0 +1,135 @@
+
+:root {
+    --main-bg-color: #ee8a2f;
+    --second-bg-color: #fff;
+    --first-text-color: #fff;
+    --second-text-color:#e99c31;
+    --primary-font-family: 'Roboto', Arial;
+    --third-text-color: #767676;
+    --third-bg-color: #f0f0f6;
+}
+
+
+.contact-section{
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.contact-bg-img{
+    width: 100%;
+    height: 130%;
+    position: absolute;
+
+}
+
+.form-container{
+    display: flex;
+    font-family: var(--primary-font-family);
+    flex-direction: column;
+    width: 350px;
+    position: relative;
+    height:570px;
+    box-shadow: 3px 6px 6px 3px #2222;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px; 
+    text-align: left;
+    background-color: var(--second-bg-color);
+    left: 150px;
+    top: 150px;
+
+}
+
+.form-container label{
+    font-size: 0.8em;
+}
+
+.form-title{
+    font-size: 1em;
+}
+.input{
+    border: none;
+    outline: none;
+    background-color: var(--third-bg-color);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+.message-input{
+    height: 150px;
+     
+
+}
+
+.triangulo {
+    width: 0;
+    height: 0;
+    border-right: 80px solid transparent;
+    border-top: 0px solid transparent;
+    border-left: 20px solid var(--second-bg-color);
+    border-bottom: 40px solid var(--second-bg-color);
+    transform: rotate(-165deg);
+    border-radius: 15px;
+    position: relative;
+    top: 650px;
+    right: 320px
+}
+
+
+.send-message-btn{
+    display: flex;
+    position:relative;
+    border: 1px solid var(--main-bg-color);
+    top: 10px;
+    display: flex;
+    font-size: 0.8em;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    width: 200px;
+    height: 30px;
+    background-color: var(--second-bg-color);
+}
+
+.email-icon{
+    width: 12px;
+}
+
+
+.contact__quote{
+    font-size: 3.2em;
+    font-family: var(--primary-font-family);
+    position: absolute;
+    top: 4000px;
+    left: 3rem;
+}
+
+.footer{
+    display: flex;
+    background-color: #000;
+    color: var(--second-text-color);
+    width: 98.5%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    position: relative;
+    height: 66px;
+    top: 150px;
+}
+
+.footer-link {
+    margin-left: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: var(--primary-font-family);
+    font-size: 0.8em;
+    color: #fff;
+}

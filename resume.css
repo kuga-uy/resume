@@ -12,6 +12,7 @@
     --second-text-color:#e99c31;
     --primary-font-family: 'Roboto', Arial;
     --third-text-color: #767676;
+    --third-bg-color: #f0f0f6;
 }
 
 
@@ -26,7 +27,7 @@
     height: 600px;
     justify-content: center;
     position: relative;
-    top: 150px;
+    top: 90px;
 }
 
 .aboutme__wrapper{
@@ -129,7 +130,7 @@
     width: 45%;
     position: absolute;
     bottom: 280px;
-    right: 60px;
+    right: 115px;
 }
 
 
@@ -250,7 +251,7 @@
     
 }
 
-.certificates-card{
+.certificates-card-grid{
     width: 70%;
     position: relative;
     top: 30px;
@@ -259,13 +260,34 @@
     border-radius: 20px 20px 0px 0px;
     padding-left: 25px;
     padding-right: 25px;
-
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 10% 23% 10% 23% 10% 23%;
+    grid-gap: 5px;
 }
+  
+  .certificates-card-grid div {
+    background-color: rgb(28, 78, 214);
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+  }
+  
+ 
+  .item-1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+  
+  .item-4 {
+    display: flex;
+  }
 
 
                 /*TECH STACK SECTION*/
 
 .tech-stack-card{
+    overflow: hidden;
     width: 70%;
     position: relative;
     top: 100px;
@@ -374,7 +396,7 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #888;
+    background-color:var(--third-bg-color);
 }
 
 .reference-intern-point{
@@ -384,6 +406,8 @@
     background-color:var(--main-bg-color);
 
 }
+
+
 
 @media (max-width: 1300px){
   
