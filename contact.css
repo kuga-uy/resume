@@ -116,7 +116,7 @@
     display: flex;
     background-color: #000;
     color: var(--second-text-color);
-    width: 98.5%;
+    width: 100%;
     display: flex;
     align-items: center;
     padding-left: 20px;
@@ -132,4 +132,45 @@
     font-family: var(--primary-font-family);
     font-size: 0.8em;
     color: #fff;
+}
+
+
+@media (max-width: 420px){
+
+    .contact-section{
+        position: relative;
+        top: 750px;
+        justify-content: center;
+    }
+
+    .contact-bg-img{
+        height: 300px;
+    }
+
+    .form-container{
+        position: relative;
+        top: 280px;
+    }
+
+    .contact__quote{
+        top: -80px;
+        font-size: 1.8em;
+        width: 85%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .form-container{
+        left: 60px;
+    }
+
+    .footer{
+        top: 1010px;
+    }
+
+    .triangulo{
+        top:240px;
+        right: 203px;
+        transform: rotate(275deg);
+    }
 }

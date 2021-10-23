@@ -40,7 +40,7 @@
                             <!--HEADER END-->
                             <!--PRESENTATION SECTION START-->
     
-    <section class="presentation__section">
+    <section id="home" class="presentation__section">
         <div class="presentation__wrapper">
             <div class="presentation__text-section">
                 <h1 class="presentation__title">Welcome to my <span class="different-color-text">Personal</span> Webpage</h1>
@@ -159,26 +159,55 @@
         <h4 class="experience-subtitle">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, cumque. Illum nostrum pariatur cum aspernatur dolore amet dolorem, blanditiis quam nam iure quibusdam</h4>
         </div>
         <div  class="certificates-card-grid">
-             <div class="item-1">1</div>
-             <div class="item-2">2</div>
-             <div class="item-3">3</div>
+             <div class="item-1">
+                 <h5 class="school-title">Lorem Ipsum</h5>
+                </div>
+             <div class="item-2">
+                <h5 class="degree-title">Computer Science Degree</h5> 
+            </div>
+             <div class="item-3">
+                 <h5 class="student-text">Student</h5>
+                 <h5 class="course-date">Jan 2016 Dec 2021</h5>
+             </div>
              <div class="item-4">
                <ul>
                  <h5>Lorem ipsum dolor sit amet consectetur adipisicing?</h5>
-                 <li></li>
-                 <li></li>
-                 <li></li>
-                 <li></li>
-               </ul>
+                 <li class="list-point"><h6 class="list-item-text">List item 1 Lorem Ipsum sit Amet</h6></li>
+                 <li class="list-point"><h6 class="list-item-text">List item 1 Lorem Ipsum sit Amet</h6></li>
+                 <li class="list-point"><h6 class="list-item-text">List item 1 Lorem Ipsum sit Amet</h6></li>
+                 <li class="list-point"><h6 class="list-item-text">List item 1 Lorem Ipsum sit Amet</h6></li>
+                </ul>
              </div>
-             <div class="item-5">5</div>
-             <div class="item-6">6</div>
-             <div class="item-7">7</div>
-             <div class="item-8">8</div>
-             <div class="item-9">9</div>
-             <div class="item-10">10</div>
-             <div class="item-11">11</div>
-             <div class="item-12">12</div>
+             <div class="item-5">
+                <h5 class="school-title">Lorem Ipsum</h5>
+             </div>
+             <div class="item-6">
+                <h5 class="degree-title">Certificate Of Backend Dev</h5> 
+            </div>
+             <div class="item-7">
+                 <h5 class="student-text">Student</h5>
+                <h5 class="course-date">Jan 2016 Dec 2021</h5>
+            </div>
+             <div class="item-8">
+                <h5 class="certificate-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.
+                 </h5>
+             </div>
+             <div class="item-9">
+                <h5 class="school-title">Lorem Ipsum</h5>
+             </div>
+             <div class="item-10">
+                <h5 class="degree-title">Certificate of Frontend Dev</h5> 
+             </div>
+             <div class="item-11">
+                <h5 class="student-text">Student</h5>
+                <h5 class="course-date">Jan 2016 Dec 2021</h5>
+             </div>
+             <div class="item-12">
+                 <h5 class="certificate-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.
+                 </h5>
+             </div>
         </div>
           
         </div>  
@@ -216,8 +245,28 @@
                     </div>
                 </div>
             </div>
-            <div class="reference-card"></div>
-            <div class="reference-card"></div>
+            <div class="reference-card">
+                <h5 class="reference-card-title">took an arrow in the knee!</h5>
+                <h6 class="reference-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ipsam at quasi repellendus quod maiores voluptates. Ipsam ipsa quas numquam impedit eum molestias possimus autem laborum repudiandae consequatur. Voluptates, ratione!</h6>
+                <div class="reference-profile-container">
+                    <img class="reference-img" src="./assets/Mask Group-1.png" alt="keanu-reeves">
+                    <div class="reference-name-container">
+                        <h5 class="reference-name">Skyrim Guard</h5>
+                        <h6 class="reference-description">Used to be an adventurer</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="reference-card">
+                <h5 class="reference-card-title">오징어 게임</h5>
+                <h6 class="reference-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ipsam at quasi repellendus quod maiores voluptates. Ipsam ipsa quas numquam impedit eum molestias possimus autem laborum repudiandae consequatur. Voluptates, ratione!</h6>
+                <div class="reference-profile-container">
+                    <img class="reference-img" src="./assets/Mask Group-2.png" alt="keanu-reeves">
+                    <div class="reference-name-container">
+                        <h5 class="reference-name">Seong Gi-hun</h5>
+                        <h6 class="reference-description">Play games</h6>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="reference-point-container">
@@ -238,14 +287,14 @@
         <form class="form-container">
             <h5 class="form-title">Gei in touch</h5>
             <label for="name">Your Full Name</label>
-            <input class="input name-input" type="text" id="name">
+            <input class="input name-input" type="text" id="name" required>
             <label for="email">Your Email</label>
-            <input class="input email-input" type="text" id="email">
+            <input class="input email-input" type="text" id="email" required>
             <label for="subject">Subject</label>
-            <input class="input subject-input" type="text" id="subject">
+            <input class="input subject-input" type="text" id="subject"required>
             <label for="name">Your Message</label>
-            <input class="input message-input" type="text" id="message">
-            <button type="button" class="send-message-btn">SEND MESSAGE<img class="email-icon"src="assets/email-vector.png"></img>
+            <input class="input message-input" type="text" id="message" required>
+            <button type="submit" class="send-message-btn">SEND MESSAGE<img class="email-icon"src="assets/email-vector.png"></img>
             </button>
         </form>
         <div class="triangulo"></div>
