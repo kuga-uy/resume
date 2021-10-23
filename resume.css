@@ -285,6 +285,7 @@
     padding-left: 50px;
     padding-top: 30px;
     font-size: 1.2em; 
+    margin-top: 10px;
   }
 
   .item-7, .item-11, .item-3{
@@ -311,8 +312,13 @@
       width: 190px;
       color: var(--third-text-color);
       font-weight: lighter;
-      font-size: 0.7em;
+      font-size: 0.8em;
   }
+
+  .list-text{
+    font-weight: lighter;
+    color:var(--third-text-color);
+}
 
   .list-point{
     width: 180px;
@@ -482,14 +488,22 @@
 
     }
 
+    .more-aboutme-container{
+        justify-content: center;
+    }
+
     .aboutme__title{
-        top: -210px;
+        top: -360px;
         margin-left: 0px;
         font-size: 1.6em;
     }
 
+    .aboutme__wrapper{
+        width:80%;
+    }
+
     .logo{
-        top: -60px;
+        top: 40px;
         right: 15px;
         width: 150px;
     }
@@ -499,6 +513,11 @@
         width: 100%;
         justify-content: center;
         font-size: 1.6em;
+        top:-0px;
+    }
+
+    .hobbies-title{
+        left: 0px;
     }
 
 
@@ -525,10 +544,13 @@
     }
 
     .aboutme__card{
-        width: 100%;
-        height: 1000px;
+        width: 80%;
         display: flex;
         flex-direction: column;
+        position: absolute;
+        height: 584px;
+        top: 240px;
+        text-align: center;
     }
 
     /*certificates*/
@@ -537,11 +559,13 @@
         grid-template-columns: 100%;
         grid-template-rows: 7% 3% 3% 18% 7% 3% 3% 18% 7% 3% 3% 18%;
         height: 1000px;
+        width: 80%;
     }
 
 
     .experience-container{
-        top: 450px;
+        top: 550px;
+        justify-content: center;
     }
 
     .lenguages-container{
@@ -554,7 +578,7 @@
     }
 
     .experience-text-container{
-        width: 90%;
+        width: 80%;
     }
 
     .reference-point-container{
@@ -684,19 +708,31 @@
 
     /*References section*/
 
+    .reference-container{
+        justify-content: center;
+    }
+
     .reference-card{
-        width: 90%;
+        width: 80%;
     }
 
     .tech-stack-card{
         height: 199px;
          position: absolute;
-         width: 60%;
-         top: 1150px;
+         width: 80%;
+         top: 1110px;
     }
 
+    .stack-icon{
+        width: 85px;
+        height: 85px;
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+   
+
     .reference-title{
-        top: 220px;
+        top: 300px;
         font-size: 1.5em;
     }
 
@@ -707,7 +743,8 @@
     }
 
     .reference-container{
-        top: 250px;
+        top: 350px;
         position: relative;
+        width: 100%;
     }
 }
