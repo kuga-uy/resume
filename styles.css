@@ -380,10 +380,9 @@ html{
   
 
     .social-network-container{
-        top: -100px;
-        left: 20px;
         height: 60px;
         position: relative;
+        top: 380px;
     }
 
 }
