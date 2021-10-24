@@ -64,7 +64,6 @@
 
 .message-input{
     height: 150px;
-     
 
 }
 
@@ -138,7 +137,7 @@
 
     .contact-section{
         position: relative;
-        top: 930px;
+        top: 300px;
         justify-content: center;
     }
 
@@ -166,7 +165,7 @@
     }
 
     .footer{
-        top: 1200px;
+        top: 600px;
     }
 
     .triangulo{

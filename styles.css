@@ -236,7 +236,7 @@ html{
     position: relative;
     display: flex;
     justify-content: flex-end;
-    border-bottom: 1px solid #000;
+    
 }
 
 .presentation__img{
@@ -354,6 +354,7 @@ html{
     .presentation__img-section{
         width: 100%;
         top: 0px;
+        border-bottom: 1px solid #000;
     }
 
     .presentation__section{
@@ -364,6 +365,12 @@ html{
         flex-direction: column;
         top: 0px;
         text-align: center;
+    }
+
+    .presentation__description{
+        width: 85%;
+        position: relative;
+        left: 20px;
     }
     .presentation__title{
         font-size: 2.5em;
