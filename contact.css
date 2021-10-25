@@ -12,7 +12,7 @@
 
 .contact-section{
     width: 100%;
-    margin-top: 150px;
+    margin-top: 0px;
     display: flex;
     justify-content: center;
     height: 100vh;
@@ -137,7 +137,7 @@
 
     .contact-section{
         position: relative;
-        top: 300px;
+        top: 445px;
         justify-content: center;
     }
 
@@ -165,7 +165,7 @@
     }
 
     .footer{
-        top: 600px;
+        top: 720px;
     }
 
     .triangulo{
