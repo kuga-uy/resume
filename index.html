@@ -46,22 +46,22 @@
                 <h1 class="presentation__title">Welcome to my <span class="different-color-text">Personal</span> Webpage</h1>
                 <h6 class="presentation__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea minima vel totam et maiores numquam itaque alias quos animi, tenetur cum debitis</h6>
             </div>
-            <div class="presentation__personal-info-container">
+            <dl class="presentation__personal-info-container">
                 <div class="info-container info--nacionality">
-                    <span class="info-box">Nacionality:</span>
-                    <span class="info">Uruguayan</span>
+                    <dt class="info-box">Nacionality:</dt>
+                    <dd class="info">Uruguayan</dd>
                 </div>
                 <div class="info-container info--dob">
-                    <span class="info-box">DOB:</span>
-                    <span class="info">25/01/1996</span>
+                    <dt class="info-box">DOB:</dt>
+                    <dd class="info">25/01/1996</dd>
                 </div>
                 <div class="info-container info--address">
-                    <span class="info-box">Adress:</span>
-                    <span class="info">Av Siempre Viva 742, Springfield</span>
+                    <dt class="info-box">Adress:</dt>
+                    <dd class="info">Av Siempre Viva 742, Springfield</dd>
                 </div>
                 <div class="info-container download-cv__btn">DOWNLOAD MY       FULL CV<img class="download-icon" src="assets/Frame.png"></img>
                 </div>
-            </div>
+            </dl>
             
             <div class="social-network-container">
                 <img class="icon linkedin-icon" src="./assets/linkedin-vector.png"></img>
@@ -301,13 +301,13 @@
         <form class="form-container">
             <h5 class="form-title">Gei in touch</h5>
             <label for="name">Your Full Name</label>
-            <input class="input name-input" type="text" id="name" required>
+            <input class="input name-input" type="text" id="name" maxlength="50" required>
             <label for="email">Your Email</label>
-            <input class="input email-input" type="text" id="email" required>
+            <input class="input email-input" type="text" id="email" maxlength="50" required>
             <label for="subject">Subject</label>
-            <input class="input subject-input" type="text" id="subject"required>
+            <input class="input subject-input" type="text" id="subject" maxlength="50" required>
             <label for="name">Your Message</label>
-            <input class="input message-input" type="textarea" id="message" required>
+            <input class="input message-input" type="textarea" id="message" maxlength="1000" required>
             <button type="submit" class="send-message-btn">SEND MESSAGE<img class="email-icon"src="assets/email-vector.png"></img>
             </button>
         </form>
@@ -315,9 +315,11 @@
        
     </section> 
     <footer class="footer">
-        <a class="footer-link">email@endava.com</a>
-        <a class="footer-link">Linkedin</a>
-        <a class="footer-link">github</a>
+        <ul>
+            <li><a class="footer-link">email@endava.com</a></li>
+            <li><a class="footer-link">Linkedin</a></li>
+            <li><a class="footer-link">github</a></li>
+        </ul>   
     </footer>                                                              
 </body>
 </html>

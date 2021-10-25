@@ -123,6 +123,13 @@
     top: 150px;
 }
 
+.footer ul{
+    display: flex;
+}
+.footer ul li{
+    list-style: none;
+}
+
 .footer-link {
     margin-left: 20px;
     text-decoration: none;
