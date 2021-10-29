@@ -1,12 +1,8 @@
-const greetingText = document.querySelector('#variable-greetings');
-const weatherForecastToday = document.querySelector('.weather-forecast');
-const weatherForecastTomorrow = document.querySelector('.weather-tomorrow-forecast')
-const currentDate = new Date();
-
-const hours = currentDate.getHours();
 
 const greetingsFunction = () =>{
-    
+    const greetingText = document.querySelector('#variable-greetings');
+    const currentDate = new Date();
+    const hours = currentDate.getHours();
         if ( hours < 12 ) {
             greetingText.textContent = "Good Morning! ";
         } else if ( hours >= 12 && hours < 18 ) {
@@ -24,7 +20,7 @@ const makeRequest = async () => {
     try {
         const data =  await fetch(url)
         .then( res => res.json() )
-        console.log(data)
+        
         getData(data);
     } catch (error) {
             console.log(`this is the error: ${error}`); 
@@ -43,6 +39,8 @@ const makeRequest = async () => {
     }
     
     const showData = (shortForecastToday, shortForecastTomorrow) => {
+        const weatherForecastToday = document.querySelector('.weather-forecast');
+        const weatherForecastTomorrow = document.querySelector('.weather-tomorrow-forecast')
         weatherForecastToday.textContent = shortForecastToday;
         weatherForecastTomorrow.textContent = shortForecastTomorrow;
     }
