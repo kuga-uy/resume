@@ -116,7 +116,15 @@ html{
     height: 30px;
     display: flex;
     justify-content: flex-end;
+    font-family: var(--primary-font-family);
+    color: var(--third-text-color);
     padding-top: 10px;
+}
+
+.weather__status-container span {
+    margin-left:3px;
+    margin-right: 20px;
+    color: var(--first-text-color);
 }
 .nav__menu{
     color: var(--first-text-color);
@@ -143,7 +151,7 @@ html{
 }
 
 .navlist:hover{
-    border-bottom: 2px solid var(--first-text-color);
+    border-bottom: 1px solid var(--first-text-color);
     height: 20px;
 }
 
@@ -301,6 +309,8 @@ html{
     .nav__menu{
         width: 100%;
         justify-content: center;
+        position: relative;
+        right: 22px
     }
 
     .nav__container{
@@ -359,9 +369,16 @@ html{
         
     }
 
+    .weather__status-container{
+        top: 15px;
+        position: relative;
+        justify-content: center;
+        font-size: 0.7em;
+    }
+
     .presentation__personal-info-container{
         width: 85%;
-        top: 390px;
+        top: 430px;
         left: 20px;
     }
 
@@ -396,7 +413,7 @@ html{
     .social-network-container{
         height: 60px;
         position: relative;
-        top: 380px;
+        top: 401px;
     }
 
 }
